@@ -1,14 +1,3 @@
-const myImg = document.querySelector("img");
-
-myImg.onclick = () => {
-    const mySrc = myImg.getAttribute("src");
-    if (mySrc === "images/firefox-logo.png") {
-        myImg.setAttribute("src", "images/spotify-logo.png");     
-    } else {
-        myImg.setAttribute("src", "images/firefox-logo.png");
-    }
-};
-
 let myButton = document.querySelector("button");
 let myHeading = document.querySelector("h1");
 
