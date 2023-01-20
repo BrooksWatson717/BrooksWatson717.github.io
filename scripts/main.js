@@ -26,7 +26,7 @@ function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
   
     // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
+    tabcontent = document.getElementsByClassName("navbar");
     for (i = 0; i < tabcontent.length; i++) {
       tabcontent[i].style.display = "none";
     }
