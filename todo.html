@@ -8,8 +8,16 @@
     <link
   href="https://fonts.googleapis.com/css?family=Sofia+Sans"
   rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
+    <div id="nav-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
     <p> Testing links to other pages</p>
     <a href="index.html"> Return to home page</a>
   </body>
